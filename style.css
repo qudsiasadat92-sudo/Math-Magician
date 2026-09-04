@@ -139,7 +139,7 @@ body {
 
     background: #ddd;
 
-    border-radius: 3px;
+    border-radius: 5px;
 
     overflow: hidden;
 
@@ -163,6 +163,7 @@ body {
     align-items: center;
 
     padding: 20px;
+    border-radius: 50px;
 }
 
 
@@ -182,6 +183,7 @@ body {
     background: #e0e0e0;
 
     font-size: 18px;
+    border-radius: 50px;
 
     cursor: pointer;
 }
