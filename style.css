@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #7d808191;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.calculator{
+ background: black;
+ padding: 10px;
+ border-radius: 20px;
+
+}
+.calculator form input {
+    border: 0px;
+    outline: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+
+    
+    
+}
+form input.de{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}
+form input.ac{
+     border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}
+form input.a{
+     border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}
+form input.b{
+     border-radius: 50px;
+    background: #fd941be0;
+    text-align: center;
+}
+form input.e{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}
+form input.d{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}
+form input.n{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}
+form input.k{
+    border-radius: 50px;
+    background: #fd941be0;
+    text-align: center;
+}
+form input.c{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}form input.m{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}form input.l{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}form input.p{
+    border-radius: 50px;
+    background: #fd941be0;
+    text-align: center;
+}
+form input.z{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}form input.w{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}form input.q{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}form input.v{
+    border-radius: 50px;
+    background: #fd941be0;
+    text-align: center;
+}
+form input.o{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}
+form input.x{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}
+form input.i{
+    border-radius: 50px;
+    background: #6e6969b6;
+    text-align: center;
+}
+form input.s{
+    border-radius: 50px;
+    background: #fd941be0;
+    text-align: center;
+
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url(image/ef.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100hv;
+}
+.fall{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    border: 1px solid rgb(10, 9, 9);
+    background-color: #e4f0efd5;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    color: rgb(201, 66, 17);
+    box-shadow: 2px 5px 0 5px rgba(0, 0, 0, 0.575);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: black;
+}
+nav a:hover{
+    color: black;
+    background: white;
+    background-color: white;
+    box-shadow: 0 0 22px #c084fc,0 0 44px #ec489933;  
+}
+.for{
+
+    font-family:Arial;
+    text-align: left;
+    border: 1px solid black;
+    background-color: #e4f0efcb;
+    padding: 30px;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 0 2px;
+}
+.calculator{
+    margin-top: 20px;
+}
+.how{
+    padding: 30px;
+    margin-top: 100px;
+    border: 2px solid black;
+    background: #e4f0efd5;
+    font-family: Arial;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 5px 0 2px rgba(0, 0, 0, 0.575);
+}
+@media(max-width: 600px){
+    .container{ 
+        width: 100%;
+        font-size: 16px;
+    }
+}
